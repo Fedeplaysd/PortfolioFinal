@@ -1,16 +1,17 @@
 /*
-0 - 600px:      Phone
-600 - 900px:    Tablet portrait
-900 - 1200px:   Tablet landscape
-[1200 - 1800] is where our normal styles apply
-1800px + :      Big desktop
-$breakpoint arguement choices:
-- phone
-- tab-port
-- tab-land
-- big-desktop
+0 - 600px: Teléfono
+600 - 900px: Tableta en vertical
+900 - 1200px: Tableta en horizontal
+[1200 - 1800] es donde se aplican nuestros estilos normales
+1800px + : Escritorio grande
 
-Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
+Opciones del argumento $breakpoint:
+
+-teléfono
+-tab-vert
+-tab-horiz
+-escritorio-grande
+Dentro de las consultas de medios, 1em siempre es 16px, es decir, 1em = 16px en todos los tamaños de pantalla solo dentro de las consultas de medios.
 */
 *,
 *::after,
