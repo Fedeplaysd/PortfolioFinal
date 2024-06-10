@@ -122,4 +122,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/node
+# End of https://www.toptal.com/developers/gitignore/api/nodesendgrid.env
+ .sendgrid.env
