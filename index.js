@@ -58,7 +58,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   fetch('https://api.sendgrid.com/v3/mail/send', {
     method: 'POST',
     headers: {
-      'Authorization': 'Bearer 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'
+      'Authorization': 'Bearer'
     },
     body: params
   })
